@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Paletas Heladas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f67280;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            font-size: 2.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2rem;
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .menu-item h3 {
+            margin: 15px 0;
+            color: #355c7d;
+        }
+
+        .menu-item p {
+            color: #6c5b7b;
+        }
+
+        .price {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: #f67280;
+            font-weight: bold;
+        }
+
+        .acompanamientos {
+            margin-top: 30px;
+            background-color: #f8b195;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .acompanamientos h3 {
+            color: #355c7d;
+        }
+
+        .acompanamientos ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .acompanamientos ul li {
+            color: #6c5b7b;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Estilos para el nuevo apartado de ventajas */
+        .ventajas {
+            background-color: #fff3e0;
+            padding: 30px;
+            margin: 30px 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .ventajas h3 {
+            color: #f67280;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .ventajas ul {
+            list-style-type: disc;
+            margin: 20px auto;
+            padding: 0 20px;
+            max-width: 700px;
+        }
+
+        .ventajas ul li {
+            color: #6c5b7b;
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Menú de Paletas Heladas
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/7110385181e44c692f7be524998b05b9.png" alt="Fresa">
+            <h3>Fresa</h3>
+            <p>Una delicia frutal y refrescante</p>
+            <div class="price">$15 MXN</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://laroussecocina.mx/wp-content/uploads/2023/04/Paletasdelimon-e1681936241757.jpg.webp" alt="Limón">
+            <h3>Limón</h3>
+            <p>Ácido y perfecto para el calor</p>
+            <div class="price">$15 MXN</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://unapizcadeamor.com/wp-content/uploads/2021/08/DSC_5200.jpg" alt="Sandía">
+            <h3>Sandía</h3>
+            <p>Juicy y dulce</p>
+            <div class="price">$15 MXN</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTb3OZhWkbc3yxykj3iE8s34dZocXZf1XIbQ&s" alt="Mango">
+            <h3>Mango</h3>
+            <p>Exótico y tropical</p>
+            <div class="price">$15 MXN</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://storage.googleapis.com/avena-recipes/2019/10/1571781279703.jpeg" alt="Plátano">
+            <h3>Plátano</h3>
+            <p>Suave y dulce</p>
+            <div class="price">$15 MXN</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://foodhero.org/sites/foodhero-prod/files/styles/recipe_format_350x565/public/recipe-imgs/Kiwi%20Popsicles_Sp_v_WM.png?itok=m88KHtB6" alt="Kiwi">
+            <h3>Kiwi</h3>
+            <p>Fresco y diferente</p>
+            <div class="price">$15 MXN</div>
+        </div>
+    </div>
+
+    <div class="acompanamientos">
+        <h3>Acompañamientos al gusto</h3>
+        <ul>
+            <li>Lechera</li>
+            <li>Chamoy</li>
+            <li>Gomitas</li>
+        </ul>
+    </div>
+
+    <div class="ventajas">
+        <h3>Ventajas de consumir paletas naturales</h3>
+        <ul>
+            <li>Ricas en vitaminas y minerales provenientes de las frutas frescas.</li>
+            <li>Sin conservadores ni aditivos artificiales.</li>
+            <li>Bajo contenido calórico, ideal para disfrutar sin culpa.</li>
+            <li>Hidratación refrescante, perfecta para los días calurosos.</li>
+            <li>Una alternativa saludable a los postres procesados.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
+ 
